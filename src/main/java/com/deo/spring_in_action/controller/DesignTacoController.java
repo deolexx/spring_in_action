@@ -1,5 +1,8 @@
-package com.deo.spring_in_action;
+package com.deo.spring_in_action.controller;
 
+import com.deo.spring_in_action.entity.Ingredient;
+import com.deo.spring_in_action.entity.Taco;
+import com.deo.spring_in_action.entity.TacoOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,7 +11,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package com.deo.spring_in_action;
+package com.deo.spring_in_action.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.deo.spring_in_action;
+package com.deo.spring_in_action.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
